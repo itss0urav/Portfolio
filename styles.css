@@ -22,14 +22,14 @@ header {
 }
 
 .background {
-  transform: translateZ(-10px) scale(2);
+  transform: translateZ(-20px) scale(3.2);
 }
 .middle {
-  transform: translateZ(-7px) scale(2.5);
+  transform: translateZ(-7px) scale(2.6);
 }
 
 .foreground {
-  transform: translateZ(-4px) scale(1.5);
+  transform: translateZ(-4px) scale(1);
 }
 
 .background,
@@ -68,15 +68,25 @@ section {
   list-style: none;
 }
 
+@media (max-width: 1170px) {
+  .background {
+    transform: translateZ(-25px) scale(6);
+    margin-top: 20px;
+  }
+}
+
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 811px) {
   .title {
-    font-size: 4rem;
     text-align: center;
-    font-size: 7rem;
+    font-size: 5rem;
     color: white;
     text-shadow: 0 0 5px black;
-    margin-top: 32rem;
+    margin-top: 31rem;
+  }
+  .background {
+    transform: translateZ(-20px) scale(5);
+    margin-top: 20px;
   }
 
   section {
@@ -89,6 +99,11 @@ section {
   section {
     font-size: 1.5rem;
     padding: 1.5rem;
+  }
+}
+@media (max-width: 585px) {
+  .title {
+    font-size: 4rem;
   }
 }
 
