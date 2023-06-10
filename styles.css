@@ -48,8 +48,8 @@ header {
 section {
   font-size: 2rem;
   padding: 2rem;
-  background-color: #333;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
 .ulAlign {
@@ -64,8 +64,19 @@ section {
 @media (max-width: 768px) {
   .title {
     font-size: 4rem;
+    text-align: center;
+    font-size: 7rem;
+    color: white;
+    text-shadow: 0 0 5px black;
   }
-  
+
+  section {
+    font-size: 2rem;
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 2px rgb(0, 221, 255);
+  }
+
   section {
     font-size: 1.5rem;
     padding: 1.5rem;
@@ -76,7 +87,7 @@ section {
   .title {
     font-size: 3rem;
   }
-  
+
   section {
     font-size: 1.2rem;
     padding: 1rem;
