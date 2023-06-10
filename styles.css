@@ -39,6 +39,7 @@ header {
 }
 
 .title {
+  text-align: center;
   font-size: 7rem;
   color: white;
   text-shadow: 0 0 5px black;
@@ -50,9 +51,34 @@ section {
   background-color: #333;
   color: white;
 }
+
 .ulAlign {
   text-align: center;
 }
+
 .ulAlign ul li {
   list-style: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .title {
+    font-size: 4rem;
+  }
+  
+  section {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 3rem;
+  }
+  
+  section {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
 }
