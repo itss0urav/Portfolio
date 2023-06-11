@@ -102,6 +102,15 @@
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=itss0urav&layout=compact"
           alt="itss0urav's Top Languages" />
       </p>
+      <div class="wrapper">
+        <!-- Your existing code here -->
+
+        <!-- Add a new section for the repository list -->
+        <section class="repository-section">
+          <h2 align="center">My GitHub Repositories</h2>
+          <ul class="repository-list"></ul>
+        </section>
+      </div>
     </section>
   </div>
 
@@ -119,6 +128,28 @@
     }
 
     typingEffect();
+
+
+
+
+    // Add the repository list generation code inside the existing script tag or create a new one if needed
+    const repositoryList = document.querySelector('.repository-list');
+    const apiUrl = 'https://api.github.com/users/itss0urav/repos';
+
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => {
+        data.forEach(repo => {
+          const listItem = document.createElement('li');
+          const repositoryLink = document.createElement('a');
+          repositoryLink.href = repo.html_url;
+          repositoryLink.textContent = repo.name;
+          repositoryLink.className = 'repository-link';
+          listItem.appendChild(repositoryLink);
+          repositoryList.appendChild(listItem);
+        });
+      })
+      .catch(error => console.log(error));
   </script>
 </body>
 

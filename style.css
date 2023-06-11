@@ -133,3 +133,33 @@ section {
     padding: 1rem;
   }
 }
+
+/*  */
+
+/* Your existing styles here */
+
+/* Add a new style for the repository list section */
+.repository-section {
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+
+.repository-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.repository-list li {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.repository-list li a {
+  text-decoration: none;
+  color: rgb(57, 4, 180);
+  text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.repository-link {
+  font-weight: bold;
+}
