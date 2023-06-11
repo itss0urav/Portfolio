@@ -67,6 +67,16 @@ section {
 .ulAlign ul li {
   list-style: none;
 }
+.gifWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gifWrap img {
+  max-width: 100%;
+  height: auto;
+}
 
 @media (max-width: 1170px) {
   .background {
