@@ -163,3 +163,48 @@ section {
 .repository-link {
   font-weight: bold;
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.hire-me-section {
+  text-align: center;
+  padding: 80px;
+  background-color: #f9f9f9;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.hire-me-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hire-me-section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-shadow: 0 0 2px purple;
+}
+
+.hire-me-section .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ff5252;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.hire-me-section h2 {
+  text-shadow: 0 0 5px purple;
+}
+
+.hire-me-section .btn:hover {
+  background-color: #ff1744;
+}
