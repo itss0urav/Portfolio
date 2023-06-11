@@ -90,6 +90,7 @@ section {
 }
 
 /* Media Queries */
+
 @media (max-width: 811px) {
   .title {
     text-align: center;
