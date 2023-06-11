@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio | Parallax</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -15,7 +15,7 @@
       <img src="imgs/bottom.jpg" class="background">
       <img src="imgs/top.png" class="foreground">
       <img src="imgs/middle.png" alt="" class="middle">
-      <font class="title">Hi I'm Sourav S</font>
+      <font class="title" id="title"></font>
     </header>
     <section>
       <h1 align="center"><img
@@ -96,11 +96,30 @@
             alt="Firebase" width="40" height="40"></a>
       </p>
 
+
       <p align="center">
-        <samp>Let's build amazing web experiences together!</samp>
+        <img height="180em"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=itss0urav&layout=compact"
+          alt="itss0urav's Top Languages" />
       </p>
     </section>
   </div>
+
+  <script>
+    const title = document.getElementById('title');
+    const text = "Hi, I'm Sourav S";
+    let index = 0;
+
+    function typingEffect() {
+      if (index < text.length) {
+        title.innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typingEffect, 100);
+      }
+    }
+
+    typingEffect();
+  </script>
 </body>
 
 </html>

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 body {
   margin: 0;
   font-family: poppins;
@@ -24,6 +25,7 @@ header {
 .background {
   transform: translateZ(-20px) scale(3.2);
 }
+
 .middle {
   transform: translateZ(-7px) scale(2.6);
 }
@@ -41,6 +43,7 @@ header {
   object-fit: cover;
   z-index: -1;
 }
+
 .foreground {
   margin-top: 30rem;
 }
@@ -67,6 +70,7 @@ section {
 .ulAlign ul li {
   list-style: none;
 }
+
 .gifWrap {
   display: flex;
   justify-content: center;
@@ -94,6 +98,7 @@ section {
     text-shadow: 0 0 5px black;
     margin-top: 31rem;
   }
+
   .background {
     transform: translateZ(-20px) scale(5);
     margin-top: 20px;
@@ -111,6 +116,7 @@ section {
     padding: 1.5rem;
   }
 }
+
 @media (max-width: 585px) {
   .title {
     font-size: 4rem;
