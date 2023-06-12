@@ -30,10 +30,9 @@ header {
   transform: translateZ(-7px) scale(2.5);
   opacity: 70%;
 }
+
 .middle2 {
   transform: translateZ(-12px) scale(1.4);
-
-  
 }
 
 .foreground {
@@ -162,6 +161,7 @@ section {
   margin-bottom: 10px;
   text-align: center;
 }
+
 .repository-list li a {
   text-decoration: none;
   color: rgb(57, 4, 180);
@@ -171,6 +171,7 @@ section {
 .repository-link {
   font-weight: bold;
 }
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -209,6 +210,7 @@ section {
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
+
 .hire-me-section h2 {
   text-shadow: 0 0 5px purple;
 }
