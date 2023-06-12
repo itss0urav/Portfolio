@@ -27,7 +27,13 @@ header {
 }
 
 .middle {
-  transform: translateZ(-7px) scale(2.6);
+  transform: translateZ(-7px) scale(2.5);
+  opacity: 70%;
+}
+.middle2 {
+  transform: translateZ(-12px) scale(2.8);
+  transform: translateX(20px) scale(2);
+  
 }
 
 .foreground {
