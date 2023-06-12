@@ -59,7 +59,21 @@ header {
   text-align: center;
   font-size: 7rem;
   color: white;
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 6px black;
+}
+.title:hover {
+  text-shadow: 0 0 10px black;
+  transform: translateZ(-15px) scale(2);
+  animation: delayAnimation 2s ease-in-out forwards;
+}
+@keyframes delayAnimation {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+
+  100% {
+    transform: translateY(0px) scale(1.05);
+  }
 }
 
 section {
