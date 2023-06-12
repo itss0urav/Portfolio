@@ -31,8 +31,8 @@ header {
   opacity: 70%;
 }
 .middle2 {
-  transform: translateZ(-12px) scale(2.8);
-  transform: translateX(20px) scale(2);
+  transform: translateZ(-12px) scale(1.4);
+
   
 }
 
@@ -42,7 +42,8 @@ header {
 
 .background,
 .foreground,
-.middle {
+.middle,
+.middle2 {
   position: absolute;
   /* height: 100%; */
   width: 100%;
