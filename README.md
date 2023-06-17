@@ -48,8 +48,11 @@ portfolio-website/
 │   ├── main.js
 │   └── ...
 ├── img/
-│   ├── project1.png
-│   ├── project2.png
+│   ├── bottom.png
+│   ├── middle.png
+│   ├── Mountain.png
+│   ├── top.png
+│   ├── Trees.png
 │   └── ...
 ├── index.html
 └── ...
@@ -57,8 +60,8 @@ portfolio-website/
 
 - **HTML:** The `index.html` file contains the overall structure of the website and the content for each section.
 - **CSS:** The `style.css` file contains the styles and layout for the website. Customize the styles as needed.
-- **JavaScript:** The `main.js` file includes any JavaScript code required for interactivity or dynamic functionality.
-- **Images:** Place your project screenshots or other images in the `img` directory.
+- **JavaScript:** The `index.html` file includes any JavaScript code required for interactivity or dynamic functionality.
+- **Images:** Place your project screenshots or other images in the `imgs` directory.
 
 Make sure to replace the placeholder content with your own information, such as project details, skills, and contact information.
 
