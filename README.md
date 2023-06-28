@@ -24,7 +24,7 @@ The portfolio website is designed to provide an overview of the owner's skills, 
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/portfolio-website.git
+git clone https://github.com/itss0urav/Portfolio.git
 ```
 
 2. Navigate to the project directory:
