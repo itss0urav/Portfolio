@@ -12,6 +12,11 @@ body {
   perspective: 10px;
 }
 
+.connectWrap{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
 header {
   position: relative;
   display: flex;
