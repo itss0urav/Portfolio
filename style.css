@@ -4,6 +4,13 @@ body {
   margin: 0;
   font-family: poppins;
 }
+a{
+  text-decoration: none;
+}
+.occ{
+  text-align: center;
+  margin-bottom: 1rem;
+}
 
 .wrapper {
   height: 100vh;
